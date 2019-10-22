@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html>
+ <head>
+    <title> 健四三B </title>
+ </head>
+<body bgcolor="#cccccc">
+<body style="color:black;">
+<font face="微軟正黑體">
+  
+<link rel="stylesheet" href="css/all.css">
+<div class="resume">
+<div class="left">
+  
+<h1><b><font size="5">王柔心</b></font></h1>
+  <a href="default.asp">
+<img src="http://pic1.win4000.com/mobile/a/55a31f94265b9.jpg" alt="HTML tutorial"
+       style="width:120px;height:120px;border:0">
+  </a>
+      <h4>My resume</h4>
+  <h1><b>履歷表</b></h1>
+<hr>
+   <h4>Basic Information</h4>
+   <h1><b>基本資料</b></h1>
+     <ul class="BI">
+     <h3><b><font size="5">性別:</b></font>女 </h3>
+<h3><b><font size="5">年齡:</b></font> 20歲 </h3>
+<h3><b><font size="5">學歷:</b></font><p><a href="https://www.ntunhs.edu.tw/bin/home.php"><a href="#" style="color:#00C200">國立台北護理健康大學 健康事業管理系</a></a></p></h3>
+     </ul>
+        <div class="block">
+          <h4>Contact Information</h4>
+          <h1><b>聯絡資料</b></h1>
+          <ul class="CI">
+<h3><b><font size="5">通訊地址:</b></font>  臺北市內江街89號 </h3>
+<h3><b><font size="5">手機:</b></font> 0916******</h3>
+<h3><b><font size="5">信箱:</b></font>alice00503@gmail.com</h3>
+   </ul>
+    </div>
+
+<div class="block">
+  <h4>License</h4>
+  <h1><b>證照</b></h1>
+      <ul class="listProgram">
+    <ol><span style="color:#0000ff">
+    <li><h3>ACCESS</h3>
+    <div class="bar">
+    <div class="value p100"></div>
+    </div>
+    </li>
+    <li><h3>Github</h3>
+    <div class="bar">
+    <div class="value p40"></div>
+    </div>
+    </li>
+    <li><h3>會計丙級</h3>
+    <div class="bar">
+    <div class="value p100"></div>
+    </div>
+    </li>
+    <li><h3>電腦軟體應用-丙級</h3>
+    <div class="bar">
+    <div class="value p"></div>
+    </div>
+    </li>
+    <li><h3>MOS Word</h3>
+    <div class="bar">
+    <div class="value p100"></div>
+    </div>
+    </li></span></ol>
+ </ul>
+      </div>
+      </div>
+ <div class="right">
+ <div class="decoration"></div>
+ <div class="block">
+ <h4>Work experience</h4>
+ <h1><b>工作經驗</b></h1>
+ <li><a href="http://www.tda.org.tw/people/hospital/content.asp?ID=578"><a href="#" style="color:#00C200">牙醫工讀</a></a></li>
+   <li>早餐店</li>
+   <li>牛排館</li>
+ <h4>Autobiography</h4>
+ <h1><b>自傳</b></h1>
+ <ul class="SI">
+          <li style="text-indent: 2em;line-height: 2"><ol><span style="color:#0000ff">畢業於新竹高商國際貿易科，目前就讀台北護理健康大學 健康事業管理系 三年級，平日裡喜歡聽音樂、看劇與學習，現在正在修一門課-程式設計，以往我對電腦方面都是不擅長的，隨著科技的發展及進步，覺得以後畢業工作都免不了要使用電腦，所以下定決心修這門課，好好的學習相關內容。</li></ol></span>
+</div>
+</font>	
+</body>
+</html>
+
+* {
+  /*   border: solid 1px black; */
+}
+
+body {
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+  background-color: #EDEEFF;
+  color: rgba(0, 0, 0, 0.95);
+  font-family: 微軟正黑體;
+  font-size: 15px;
+  line-height: 20px;
+  letter-spacing: 1px;
+}
+
+/* 複寫區 */
+ul {
+  padding: 0;
+  list-style: none;
+  line-height: 25px;
+}
+
+h2 {
+  margin: 0;
+  margin-bottom: 25px;
+  font-weight: 400;
+}
+
+h2::after {
+  content: " ";
+  display: inline-block;
+  width: 20px;
+  height: 8px;
+  background-color: #7EA8BE;
+  margin-left: 10px;
+}
+
+h4 {
+  margin: 0;
+  margin-top: 40px;
+  opacity: 0.8;
+  font-weight: 400;
+  padding-bottom: 10px;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+hr {
+  border: none;
+  border-bottom: solid 4px #7EA8BE;
+  width: 40%;
+  margin-left: 0;
+}
+
+.resume {
+  display: flex;
+  max-width: 950px;
+  border: solid 8px white;
+  padding: 50px;
+  position: relative;
+  margin: 0 auto;
+}
+
+.left {
+  flex: 5;
+}
+
+.right {
+  flex: 7;
+}
+
+.left,
+.right {
+  padding: 15px;
+}
+
+.left {
+  padding-right: 50px;
+  border-right: solid 1px #7EA8BE;
+}
+
+.right {
+  padding-left: 50px;
+  padding-top: 150px;
+}
+
+.decoration {
+  width: 300px;
+  height: 140px;
+  background: linear-gradient(120deg, #A8DAF4, #F6F0ED);
+  border-radius: 70px 0px 0px 70px;
+  position: absolute;
+  right: 0;
+  top: 50px;
+}
+
+.listExperience>li {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.listExperience>li:nth-child(1) ul {
+  border-color: #7EA8BE;
+}
+
+.listExperience>li:nth-child(2) ul {
+  border-color: #8FBED8;
+}
+
+.listExperience>li:nth-child(3) ul {
+  border-color: #9ED3EF;
+}
+
+.listExperience>li:nth-child(4) ul {
+  border-color: #AFE3FF;
+}
+
+.listExperience li ul {
+  padding-left: 10px;
+  margin-left: 10px;
+  border-left: solid 4px white;
+}
+
+/* list skill */
+.listSkill {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.listSkill li {
+  width: 25%;
+  padding: 5px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+/* .circle{
+    width: 50px;
+    height: 50px;
+    background-color: #fff;
+    border-radius: 50%;
+    position: relative;
+    overflow: hidden;
+    background-color: rgb(255, 113, 104,0.4);
+    
+  } */
+/* .circle::after{
+    content: "";
+    display: block;
+    background-color: #854836;
+    width: calc(100% - 20px);
+    height: calc(100% - 20px);
+    border-radius: 50%;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+  }
+  .p90,.p180,.p270,.p360{
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    left: 50%;
+    top: 0;
+    background-color: #7EA8BE;
+  }
+  .p180{
+    top: 50%;
+  }
+  .p270{
+    left: 0;
+    top: 50%;
+  }
+  .p360{
+    left: 0;
+    top: 0;
+  }
+   */
+/* list program */
+
+.listProgram .bar {
+  width: 150px;
+  height: 10px;
+  border: solid 2px #7EA8BE;
+  border-radius: 5px;
+}
+
+.listProgram li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 10px;
+}
+
+.value {
+  height: 100%;
+  width: 60%;
+  background-color: #7EA8BE;
+}
+
+.value.p10 {
+  width: 10%;
+}
+
+.value.p20 {
+  width: 20%;
+}
+
+.value.p30 {
+  width: 30%;
+}
+
+.value.p40 {
+  width: 40%;
+}
+
+.value.p50 {
+  width: 50%;
+}
+
+.value.p60 {
+  width: 60%;
+}
+
+.value.p70 {
+  width: 70%;
+}
+
+.value.p80 {
+  width: 80%;
+}
+
+.value.p90 {
+  width: 90%;
+}
+
+.value.p100 {
+  width: 100%;
+}
+
+.btn {
+  border: solid 3px #7EA8BE;
+  padding: 5px 20px;
+  margin-right: 10px;
+  display: inline-block;
+}
+
+.btn:hover{
+  background-color: #7EA8BE;
+  color: white;
+}
+
+/* .fill {
+  background-color: #7EA8BE;
+} */
+
+.CI svg {
+  margin-right: 5px;
+  width: 20px !important;
+}
