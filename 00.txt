@@ -94,16 +94,6 @@ body {
   font-size: 15px;
   line-height: 20px;
   letter-spacing: 1px;}
-body {
-  padding: 50px;
-  display: flex;
-  justify-content: center;
-  background-color: #EDEEFF;
-  color: rgba(0, 0, 0, 0.95);
-  font-family: 微軟正黑體;
-  font-size: 15px;
-  line-height: 20px;
-  letter-spacing: 1px;}
 ul {padding: 0;list-style: none;line-height: 25px;}
 h2 {margin: 0;margin-bottom: 25px;font-weight: 400;}
 h2::after {
